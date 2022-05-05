@@ -21,7 +21,6 @@ See [`.gitconfig`](.github/.gitconfig) for an exhausive list of aliases.
 ```zsh
 git clone https://github.com/unicornware/brewfile ~/.config/brewfile
 cd ~/.config/brewfile
-yarn
 ```
 
 ## Contributing Code
