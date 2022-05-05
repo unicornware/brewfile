@@ -13,11 +13,19 @@
 
 ## Usage
 
+### Git Clone
+
 ```zsh
-brew file set_repo -r unicornware/brewfile
+git clone https://github.com/unicornware/brewfile ~/.config/brewfile
+brew bundle
 ```
 
-See [Manage Brewfile with Git][3] for additional details.
+### [Git Managed Brewfile][3]
+
+```zsh
+brew file set_repo -r unicornware/brewfile
+brew bundle
+```
 
 [1]: https://github.com/Homebrew/homebrew-bundle
 [2]: https://github.com/rcmdnk/homebrew-file
