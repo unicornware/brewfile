@@ -38,6 +38,7 @@ brew 'rcmdnk/file/brew-file'
 brew 'terminal-notifier'
 brew 'tree'
 brew 'vercel-cli'
+brew 'yarn'
 brew 'zsh'
 
 # Casks
