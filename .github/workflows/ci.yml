@@ -51,3 +51,6 @@ jobs:
       - id: lint
         name: Check lint status
         run: yarn check:lint
+      - id: spelling
+        name: Check spelling
+        run: yarn check:spelling

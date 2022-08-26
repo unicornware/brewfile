@@ -1,5 +1,5 @@
 {
-  "*": ["yarn check:format"],
+  "*": ["yarn check:format", "yarn check:spelling"],
   "**/*.{json,jsonc,md,yml}": ["yarn check:lint"],
   "**/yarn.lock": "yarn dedupe --check"
 }

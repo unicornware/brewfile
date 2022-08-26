@@ -15,9 +15,10 @@
     "url": "https://github.com/unicornware"
   },
   "scripts": {
-    "check:ci": "yarn check:format && yarn check:lint && yarn dedupe --check",
+    "check:ci": "yarn check:format && yarn check:lint && yarn check:spelling && yarn dedupe --check",
     "check:format": "prettier --check .",
     "check:lint": "eslint --cache --exit-on-fatal-error --ext json,jsonc,md,yml --max-warnings 0 .",
+    "check:spelling": "cspell lint --color --no-progress --relative $@ \"**\"",
     "check:upgrades": "yarn upgrade-interactive",
     "clean:modules": "trash ./.yarn/{cache,*.gz} ./node_modules",
     "fix:dedupe": "yarn dedupe --strategy=highest",
@@ -29,6 +30,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@vates/toggle-scripts": "1.0.0",
+    "cspell": "6.8.0",
     "eslint": "8.22.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsonc": "2.4.0",

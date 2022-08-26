@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "allowCompoundWords": true,
+  "caseSensitive": false,
+  "dictionaries": ["@unicornware/brewfile"],
+  "dictionaryDefinitions": [
+    {
+      "name": "@unicornware/brewfile",
+      "path": "./.dictionary.txt"
+    }
+  ],
+  "enableGlobDot": true,
+  "failFast": false,
+  "flagWords": [],
+  "ignorePaths": [
+    "**/.gitignore",
+    ".cspell.json",
+    ".git/",
+    ".husky/_/",
+    ".yarn/",
+    "yarn.lock"
+  ],
+  "ignoreRegExpList": [],
+  "ignoreWords": [],
+  "language": "en-US",
+  "patterns": [],
+  "readonly": true,
+  "useGitignore": true,
+  "usePnP": false,
+  "version": "0.2",
+  "words": []
+}

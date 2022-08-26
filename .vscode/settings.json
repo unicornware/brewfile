@@ -27,6 +27,7 @@
     "editor.wordWrapColumn": 100,
     "rewrap.wrappingColumn": 100
   },
+  "cSpell.enabled": true,
   "editor.autoClosingBrackets": "always",
   "emmet.showExpandedAbbreviation": "always",
   "emmet.triggerExpansionOnTab": true,
@@ -59,6 +60,7 @@
   "shellformat.flag": "-ci -fn -i=2 -sr",
   "workbench.iconTheme": "vscode-icons",
   "yaml.schemas": {
+    "https://json.schemastore.org/github-issue-config": "/.github/ISSUE_TEMPLATE/config.yml",
     "https://json.schemastore.org/github-workflow": "/.github/workflows/*.yml"
   }
 }
