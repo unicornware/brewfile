@@ -1,0 +1,49 @@
+{
+  "name": "@unicornware/brewfile",
+  "description": "Homebrew Bundle configuration file",
+  "license": "MIT",
+  "homepage": "https://github.com/unicornware/brewfile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unicornware/brewfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unicornware/brewfile/issues"
+  },
+  "author": {
+    "name": "Lexus Drumgold",
+    "url": "https://github.com/unicornware"
+  },
+  "scripts": {
+    "check:ci": "yarn check:format && yarn check:lint && yarn dedupe --check",
+    "check:format": "prettier --check .",
+    "check:lint": "eslint --cache --exit-on-fatal-error --ext json,jsonc,md,yml --max-warnings 0 .",
+    "check:upgrades": "yarn upgrade-interactive",
+    "clean:modules": "trash ./.yarn/{cache,*.gz} ./node_modules",
+    "fix:dedupe": "yarn dedupe --strategy=highest",
+    "fix:format": "prettier --write .",
+    "fix:lint": "yarn check:lint --fix",
+    "postinstall": "chmod +x .husky/* && husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@vates/toggle-scripts": "1.0.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-jsonc": "2.4.0",
+    "eslint-plugin-markdown": "3.0.0",
+    "eslint-plugin-markdownlint": "0.4.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-yml": "1.1.0",
+    "husky": "8.0.1",
+    "jsonc-eslint-parser": "2.1.0",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-sh": "0.12.8",
+    "trash-cli": "5.0.0",
+    "yaml-eslint-parser": "1.1.0"
+  },
+  "packageManager": "yarn@4.0.0-rc.14",
+  "readme": "README.md"
+}

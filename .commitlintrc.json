@@ -1,38 +1,17 @@
 {
-  "defaultIgnores":true,
-  "extends":[
-    "@commitlint/config-conventional"
-  ],
-  "formatter":"@commitlint/format",
-  "ignores":[],
-  "rules":{
-    "scope-case":[
+  "defaultIgnores": true,
+  "extends": ["@commitlint/config-conventional"],
+  "formatter": "@commitlint/format",
+  "ignores": [],
+  "rules": {
+    "scope-case": [2, "always", ["kebab-case", "lower-case"]],
+    "scope-enum": [
       2,
       "always",
-      [
-        "kebab-case",
-        "lower-case"
-      ]
+      ["brew", "deps-dev", "github", "vscode", "workflows", "yarn"]
     ],
-    "scope-enum":[
-      2,
-      "always",
-      [
-        "brew",
-        "deps-dev",
-        "github",
-        "tools",
-        "vscode",
-        "workflows",
-        "yarn"
-      ]
-    ],
-    "subject-case":[
-      1,
-      "always",
-      "lower-case"
-    ],
-    "type-enum":[
+    "subject-case": [1, "always", "lower-case"],
+    "type-enum": [
       2,
       "always",
       [

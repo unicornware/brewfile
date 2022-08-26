@@ -1,0 +1,217 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [],
+  "overrides": [
+    {
+      "files": ["*.json", "*.jsonc"],
+      "extends": ["plugin:jsonc/prettier"],
+      "parser": "jsonc-eslint-parser",
+      "plugins": ["jsonc"],
+      "rules": {
+        "jsonc/no-bigint-literals": 2,
+        "jsonc/no-binary-expression": 2,
+        "jsonc/no-binary-numeric-literals": 2,
+        "jsonc/no-comments": 2,
+        "jsonc/no-escape-sequence-in-identifier": 2,
+        "jsonc/no-hexadecimal-numeric-literals": 2,
+        "jsonc/no-infinity": 2,
+        "jsonc/no-multi-str": 2,
+        "jsonc/no-nan": 2,
+        "jsonc/no-number-props": 2,
+        "jsonc/no-numeric-separators": 2,
+        "jsonc/no-octal": 0,
+        "jsonc/no-octal-escape": 2,
+        "jsonc/no-octal-numeric-literals": 2,
+        "jsonc/no-parenthesized": 2,
+        "jsonc/no-plus-sign": 2,
+        "jsonc/no-regexp-literals": 2,
+        "jsonc/no-sparse-arrays": 2,
+        "jsonc/no-template-literals": 2,
+        "jsonc/no-undefined-value": 2,
+        "jsonc/no-unicode-codepoint-escapes": 2,
+        "jsonc/no-useless-escape": 2,
+        "jsonc/sort-array-values": [
+          2,
+          {
+            "order": {
+              "caseSensitive": true,
+              "type": "asc"
+            },
+            "pathPattern": "^$"
+          }
+        ],
+        "jsonc/sort-keys": [
+          2,
+          {
+            "order": [
+              "name",
+              "description",
+              "license",
+              "homepage",
+              "repository",
+              "bugs",
+              "author",
+              "scripts",
+              "devDependencies",
+              "resolutions",
+              "engines",
+              "packageManager",
+              "readme"
+            ],
+            "pathPattern": "^$"
+          },
+          {
+            "order": {
+              "caseSensitive": true,
+              "type": "asc"
+            },
+            "pathPattern": "^$"
+          }
+        ],
+        "jsonc/valid-json-number": 2,
+        "jsonc/vue-custom-block/no-parsing-error": 2
+      }
+    },
+    {
+      "files": ["*.jsonc"],
+      "rules": {
+        "jsonc/no-comments": 0
+      }
+    },
+    {
+      "files": ["*.md"],
+      "parser": "eslint-plugin-markdownlint/parser",
+      "plugins": ["markdown", "markdownlint"],
+      "processor": "markdown/markdown"
+    },
+    {
+      "files": ["*.yml"],
+      "parser": "yaml-eslint-parser",
+      "plugins": ["yml"],
+      "rules": {
+        "prettier/prettier": 0,
+        "yml/block-mapping": 2,
+        "yml/block-mapping-question-indicator-newline": [2, "never"],
+        "yml/block-sequence": 2,
+        "yml/block-sequence-hyphen-indicator-newline": [2, "never"],
+        "yml/flow-mapping-curly-newline": 2,
+        "yml/flow-mapping-curly-spacing": [
+          2,
+          "always",
+          {
+            "arraysInObjects": false,
+            "objectsInObjects": false
+          }
+        ],
+        "yml/flow-sequence-bracket-newline": 2,
+        "yml/flow-sequence-bracket-spacing": 2,
+        "yml/indent": [2, 2],
+        "yml/key-name-casing": [
+          2,
+          {
+            "SCREAMING_SNAKE_CASE": true,
+            "camelCase": false,
+            "kebab-case": true,
+            "snake_case": true
+          }
+        ],
+        "yml/key-spacing": 2,
+        "yml/no-empty-document": 0,
+        "yml/no-empty-key": 2,
+        "yml/no-empty-mapping-value": 0,
+        "yml/no-empty-sequence-entry": 2,
+        "yml/no-irregular-whitespace": 2,
+        "yml/no-multiple-empty-lines": [
+          2,
+          {
+            "max": 2,
+            "maxBOF": 0,
+            "maxEOF": 1
+          }
+        ],
+        "yml/no-tab-indent": 2,
+        "yml/plain-scalar": [2, "always"],
+        "yml/quotes": [
+          2,
+          {
+            "avoidEscape": true,
+            "prefer": "single"
+          }
+        ],
+        "yml/require-string-key": 2,
+        "yml/sort-keys": [
+          2,
+          {
+            "order": {
+              "caseSensitive": true,
+              "type": "asc"
+            },
+            "pathPattern": "^$"
+          }
+        ],
+        "yml/sort-sequence-values": [
+          2,
+          {
+            "order": {
+              "caseSensitive": true,
+              "type": "asc"
+            },
+            "pathPattern": "^$"
+          }
+        ],
+        "yml/spaced-comment": 2
+      }
+    },
+    {
+      "files": [".github/ISSUE_TEMPLATE/*.yml"],
+      "overrides": [
+        {
+          "files": [".github/ISSUE_TEMPLATE/config.yml"],
+          "rules": {
+            "yml/sort-keys": [
+              2,
+              {
+                "order": {
+                  "caseSensitive": true,
+                  "type": "asc"
+                },
+                "pathPattern": "^$"
+              }
+            ]
+          }
+        }
+      ],
+      "rules": {
+        "yml/sort-keys": [
+          2,
+          {
+            "order": [
+              "name",
+              "description",
+              "title",
+              "assignees",
+              "labels",
+              "body"
+            ],
+            "pathPattern": "^$"
+          }
+        ]
+      }
+    },
+    {
+      "files": [".github/dependabot.yml", ".github/workflows/*.yml"],
+      "rules": {
+        "yml/sort-keys": 0
+      }
+    },
+    {
+      "files": [".github/workflows/no-response-handler.yml", ".yarnrc.yml"],
+      "rules": {
+        "yml/key-name-casing": 0
+      }
+    }
+  ],
+  "root": true
+}

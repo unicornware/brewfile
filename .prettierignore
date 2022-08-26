@@ -1,0 +1,17 @@
+# PRETTIER IGNORE
+# https://prettier.io/docs/en/ignore.html
+
+# DIRECTORIES & FILES
+**/*.md
+**/.gitkeep
+.eslintcache
+.eslintignore
+.gitignore
+.husky/_/*
+.markdownlintignore
+.nvmrc
+.prettierignore
+.yarn/*
+Brewfile
+node_modules/*
+yarn.lock

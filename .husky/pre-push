@@ -1,4 +1,6 @@
-# Pre-Push Hook
+#!/bin/sh
+
+# Pre-Push Workflow
 #
 # References:
 #

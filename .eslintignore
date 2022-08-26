@@ -1,0 +1,9 @@
+# ESLINT IGNORE
+# https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
+
+# DIRECTORIES & FILES
+.yarn/*
+node_modules/*
+
+# NEGATED PATTERNS
+!/.*
