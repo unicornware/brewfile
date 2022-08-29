@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3",
+    "@commitlint/config-conventional": "17.1.0",
     "@vates/toggle-scripts": "1.0.0",
     "cspell": "6.8.0",
     "eslint": "8.22.0",
