@@ -20,14 +20,14 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@commitlint/cli@17.0.3":
-  version "17.0.3"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.0.3.tgz#50be9d9a8d79f6c47bfd2703638fe65215eb2526"
+"@commitlint/cli@17.1.2":
+  version "17.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-17.1.2.tgz#38240f84936df5216f749f06f838dc50cc85a43d"
   dependencies:
     "@commitlint/format" "^17.0.0"
-    "@commitlint/lint" "^17.0.3"
-    "@commitlint/load" "^17.0.3"
-    "@commitlint/read" "^17.0.0"
+    "@commitlint/lint" "^17.1.0"
+    "@commitlint/load" "^17.1.2"
+    "@commitlint/read" "^17.1.0"
     "@commitlint/types" "^17.0.0"
     execa "^5.0.0"
     lodash "^4.17.19"
@@ -73,7 +73,7 @@
     "@commitlint/types" "^17.0.0"
     semver "7.3.7"
 
-"@commitlint/lint@^17.0.3":
+"@commitlint/lint@^17.1.0":
   version "17.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/lint/-/lint-17.1.0.tgz#de2d3baa2b20d9ec3d5fd2f2421f6025c8439630"
   dependencies:
@@ -82,7 +82,7 @@
     "@commitlint/rules" "^17.0.0"
     "@commitlint/types" "^17.0.0"
 
-"@commitlint/load@^17.0.3":
+"@commitlint/load@^17.1.2":
   version "17.1.2"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.1.2.tgz#19c88be570d8666bbd32f9b3d81925a08328bc13"
   dependencies:
@@ -111,7 +111,7 @@
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.2.2"
 
-"@commitlint/read@^17.0.0":
+"@commitlint/read@^17.1.0":
   version "17.1.0"
   resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-17.1.0.tgz#cf6bab410180f32f70891c97b15467c0b92ac14f"
   dependencies:
