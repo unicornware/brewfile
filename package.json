@@ -30,7 +30,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.1.0",
     "@vates/toggle-scripts": "1.0.0",
-    "cspell": "6.8.0",
+    "cspell": "6.8.1",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsonc": "2.4.0",
