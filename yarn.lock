@@ -316,9 +316,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^2.0.11":
-  version: 2.0.11
-  resolution: "@cspell/dict-companies@npm:2.0.11"
-  checksum: f4104dade89d90952eba94b90c585c32994798fa635c6c355c11e48ae85067521ad03910f0442d85be989497deb54eef43d95fc15473d48234df05639dcc40af
+  version: 2.0.13
+  resolution: "@cspell/dict-companies@npm:2.0.13"
+  checksum: 89970c5e35abb6abec287c51a67f498156fcf582550850a25368f989214bccb4ec8c372d9ebcb5b9db87925d05aac2113a32eaf900b2dbe32c7f82933fe78b23
   languageName: node
   linkType: hard
 
@@ -449,9 +449,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-html@npm:^3.1.0":
-  version: 3.2.0
-  resolution: "@cspell/dict-html@npm:3.2.0"
-  checksum: 5a80f612e7e8a11128ecde2a2406a241fe94613d639cad7ac09b03ad4425de15369f30373cbf5b6daa0808131736b97acff827e2da5777eab3ecb7db97f11bd7
+  version: 3.3.1
+  resolution: "@cspell/dict-html@npm:3.3.1"
+  checksum: a2d92412497ee37ce3582a0e60f9e5ee293590861c97db91cab16a2210579d2897dcd5f274fe594234a3a8c669d60057b2f8bd0e8fce7037e4efbc5a3c3da061
   languageName: node
   linkType: hard
 
@@ -554,9 +554,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^2.2.3":
-  version: 2.2.5
-  resolution: "@cspell/dict-software-terms@npm:2.2.5"
-  checksum: 9a281728a1af5b6db392097e70d481fbac162ac978e2e8723e9a5bab1495181e6a6e5e727873cc67f132baf02f87b32e246ccdb1517020af361de69f72b493b3
+  version: 2.2.6
+  resolution: "@cspell/dict-software-terms@npm:2.2.6"
+  checksum: 062a49a8c1c3b73b17abf023bcdd6f1a0f3d426ce1e7534dac2c80a2a7b59241fc9a5c0dd583dfa6ae29dddbd7aea8c6a1f99d6b35b3a8395008078ef6ff7167
   languageName: node
   linkType: hard
 
@@ -697,7 +697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/utils@npm:^2.3.0":
+"@pkgr/utils@npm:^2.3.1":
   version: 2.3.1
   resolution: "@pkgr/utils@npm:2.3.1"
   dependencies:
@@ -786,9 +786,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.0.0":
-  version: 14.18.26
-  resolution: "@types/node@npm:14.18.26"
-  checksum: 7ed44aa4a0a0f6574b5c260b00657c3480ee079953faf76659b8300441a68b1d8b503b6212521491a28121463be772d65c713e1de74fbef6fbf8e560425d587b
+  version: 14.18.27
+  resolution: "@types/node@npm:14.18.27"
+  checksum: 307d9eb7ab9536dda42a13f87e19697db080de50346c09d0435a860b246ac03e6cdb0ad291b9050ea32b1d75334f31c556fb5cdef36ebdbf9cd464e38b2ec5d7
   languageName: node
   linkType: hard
 
@@ -827,7 +827,7 @@ __metadata:
     eslint-plugin-markdown: "npm:3.0.0"
     eslint-plugin-markdownlint: "npm:0.4.0"
     eslint-plugin-prettier: "npm:4.2.1"
-    eslint-plugin-yml: "npm:1.1.0"
+    eslint-plugin-yml: "npm:1.2.0"
     husky: "npm:8.0.1"
     jsonc-eslint-parser: "npm:2.1.0"
     lint-staged: "npm:13.0.3"
@@ -1755,9 +1755,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-yml@npm:1.1.0":
-  version: 1.1.0
-  resolution: "eslint-plugin-yml@npm:1.1.0"
+"eslint-plugin-yml@npm:1.2.0":
+  version: 1.2.0
+  resolution: "eslint-plugin-yml@npm:1.2.0"
   dependencies:
     debug: "npm:^4.3.2"
     lodash: "npm:^4.17.21"
@@ -1765,7 +1765,7 @@ __metadata:
     yaml-eslint-parser: "npm:^1.1.0"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 55e81c99d65afe9b181a1f28e93e67b569e0b32421d53b19bb23196124783c26b530636546b8cbc68a28f2aa5d5448124a5e625de1c1b8595ab2aef44a4b5454
+  checksum: d96e973c80c353cd0fd8ad87df18451a55ebe86713a2afcfbb45c88c4a93049210686294e484c51bda66b90705dff3a379be433af0f7bd56a154871d5dc2c2e3
   languageName: node
   linkType: hard
 
@@ -3973,12 +3973,12 @@ __metadata:
   linkType: hard
 
 "synckit@npm:^0.8.1":
-  version: 0.8.3
-  resolution: "synckit@npm:0.8.3"
+  version: 0.8.4
+  resolution: "synckit@npm:0.8.4"
   dependencies:
-    "@pkgr/utils": "npm:^2.3.0"
+    "@pkgr/utils": "npm:^2.3.1"
     tslib: "npm:^2.4.0"
-  checksum: 45133acbe92c57d3afc3738cc69f8c9de40fa375378eb35290ff76a76ce333e81b655d0b2a26f9cb209f7337683e91c073ccda0d48e3ee961f840f3d12f11ac2
+  checksum: 4e48556558263008c05df5f747b20b34ba919d7b41dda61e0756d3a7e26ade65b1b2c30e2772f8a5782fac01a6973d6bb5cd9d5636c8f04f61a1bded9e9feea7
   languageName: node
   linkType: hard
 
@@ -4289,9 +4289,9 @@ __metadata:
   linkType: hard
 
 "vscode-languageserver-textdocument@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "vscode-languageserver-textdocument@npm:1.0.5"
-  checksum: ab5f19fa39ccd6834d15ecfa006c120955b5650ddca022bdeb065e689a42eaa57bd6441bb8019b335a80b0536317f4c23977f4c97c3c50c572867b57d1932e3f
+  version: 1.0.7
+  resolution: "vscode-languageserver-textdocument@npm:1.0.7"
+  checksum: 7a8986bfcb1a83ade93041909314ad63bd8dfc002822ad37d3c0c83ff3a630efc1a75581e2f612428e743b58e04599d266c1d906f38b3c938ec82704e9b1cd2b
   languageName: node
   linkType: hard
 
