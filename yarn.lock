@@ -816,7 +816,7 @@ __metadata:
     cspell: "npm:6.12.0"
     eslint: "npm:8.26.0"
     eslint-config-prettier: "npm:8.5.0"
-    eslint-plugin-jsonc: "npm:2.4.0"
+    eslint-plugin-jsonc: "npm:2.5.0"
     eslint-plugin-markdown: "npm:3.0.0"
     eslint-plugin-markdownlint: "npm:0.4.0"
     eslint-plugin-prettier: "npm:4.2.1"
@@ -1696,16 +1696,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsonc@npm:2.4.0":
-  version: 2.4.0
-  resolution: "eslint-plugin-jsonc@npm:2.4.0"
+"eslint-plugin-jsonc@npm:2.5.0":
+  version: 2.5.0
+  resolution: "eslint-plugin-jsonc@npm:2.5.0"
   dependencies:
     eslint-utils: "npm:^3.0.0"
     jsonc-eslint-parser: "npm:^2.0.4"
     natural-compare: "npm:^1.4.0"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 1ed387d0abf8913221ec6040a98f07f3c982759f2fd9f6cb9926a6cb742b38bfdad849187ef1827e1271e9d03f6775fe56d98cf514328b6d8ad524f08ae42876
+  checksum: 0415779f39e8f5ff32abe16dd2f5abbb112401e9fa4f68a64e9cef389d23d862b558b8d8f7b5a45f6dedfa7192dc2142b644af44c9f28d58e78a67fbf6fe542a
   languageName: node
   linkType: hard
 
