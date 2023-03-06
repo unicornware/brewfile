@@ -852,7 +852,7 @@ __metadata:
     "@vates/toggle-scripts": "npm:1.0.0"
     cspell: "npm:6.18.0"
     eslint: "npm:8.30.0"
-    eslint-config-prettier: "npm:8.5.0"
+    eslint-config-prettier: "npm:8.7.0"
     eslint-plugin-jsonc: "npm:2.5.0"
     eslint-plugin-markdown: "npm:3.0.0"
     eslint-plugin-markdownlint: "npm:0.4.0"
@@ -1735,14 +1735,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.5.0":
-  version: 8.5.0
-  resolution: "eslint-config-prettier@npm:8.5.0"
+"eslint-config-prettier@npm:8.7.0":
+  version: 8.7.0
+  resolution: "eslint-config-prettier@npm:8.7.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: fb61fae9c1ac23afddf046c17437c464ce74d16d86ca1e0ee0705a8c0b89c89baf24420451ae0eafd2789e06de21540b99ca2a8ebae13bcd862c02733df2c160
+  checksum: 43ac6ad81d0dbcade367ac8b923e8c3b1ef9027df71ecc26e75e37e97c832685b670c50edd73aaddc463aa3f60adb267db1fc7f3fc1502340dd34486d3c54724
   languageName: node
   linkType: hard
 
